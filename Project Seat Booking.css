@@ -1,0 +1,108 @@
+:root{
+    background-color: rgb(32, 32, 32);
+    margin: 0px;
+    padding: 0px;
+}
+#cnfrmbox{
+    color: rgb(131, 131, 131);
+    background-color:wheat;
+    padding: 15px 35px;
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    display: none;
+}
+#closesymbol{
+    cursor: pointer;
+    font-size: 30px;
+    position: absolute;
+    right: 20px;
+    top: 8px;
+}
+#formbox{
+    font-family: 'Baloo 2', cursive;
+    background-color: floralwhite;
+    border: 2px solid rgb(102, 102, 102);
+    border-radius: 8px;
+    width: 800px;
+    padding: 20px 35px;
+    margin: auto;
+}
+.formclass{
+    padding: 15px;
+    font-size: 18px;
+}
+.formclass input[type='text'], input[type='email'],input[type='number']{
+    width: 580px;
+    border-radius: 5px;
+    border: rgb(80, 80, 80) 2px solid;
+    padding: 5px;
+}
+#name input{
+    margin-left: 101px;
+}
+#e-mail input{
+    margin-left: 97px;
+}
+#cnic input{
+    margin-left: 83px;
+}
+#seatnumbers input{
+    margin-left: 57px;
+}
+#phone_no input{
+    margin-left: 35px;
+}
+#destination{
+    display: flex;
+}
+#destination select{
+    border-radius: 5px;
+    border: rgb(80, 80, 80) 2px solid;
+    width: 594px;
+    margin-left: 60px;
+    padding: 5px;
+}
+#bus_class {
+    display: flex;
+}
+#bus_class input{
+    margin-left: 43px;
+}
+#datetime input{
+    width: 578px;
+    border-radius: 5px;
+    border: rgb(80, 80, 80) 2px solid;
+    margin-left: 57px;
+    padding: 5px;
+}
+#buttons{
+    margin-top: 60px;
+    text-align: center;
+}
+.approvalbtn {
+    font-family: 'Baloo 2', cursive;
+    font-size: 18px;
+    cursor: pointer;
+    color: rgb(250, 250, 250);
+    border-radius: 4px;
+    width: 600px;
+    padding: 3px;
+    margin-top: 6px;
+}
+#submitbtn{
+    background-color:rgb(69, 66, 255);
+    border: 2px solid rgb(85, 115, 248);
+}
+#resetbtn{
+    background-color:red;
+    border: 2px solid rgb(250, 97, 97);
+}
+#submitbtn:hover{
+    background-color:  rgb(85, 115, 248);
+}
+#resetbtn:hover{
+    background-color:  rgb(250, 97, 97);
+
+}

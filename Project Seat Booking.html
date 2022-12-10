@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Booking</title>
+    <link rel="stylesheet" href="Project Seat Booking.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="cnfrmbox">
+        Your Seat is Registered successfully <span id="closesymbol"> &times;</span>
+    </div>
+    <div id="formbox">
+        <div id="company_name">
+            <h1>Online Bus Ticket Registeration
+                <hr>
+            </h1> <br>
+        </div>
+        <form action="" id="getformdetails">
+            <div class="formclass" id="name">
+                <label for="name">Name</label>
+                <input type="text" id="my_name">
+            </div>
+            <div class="formclass" id="e-mail">
+                <label for="e-mail">E-mail</label>
+                <input type="email" placeholder="someone@example.com" id="my_mail">
+            </div>
+            <div class="formclass" id="cnic">
+                <label for="cnic">CNIC no.</label>
+                <input type="text" id="my_cnic">
+            </div>
+            <div class="formclass" id="seatnumbers">
+                <label for="seat">No. of seats</label>
+                <input type="number" id="myseat">
+            </div>
+            <div class="formclass" id="destination">
+                <label for="destination">Destination</label>
+                <select name="destination">
+                    <option value=""></option>
+                    <option value="Lahore">Lahore</option>
+                    <option value="Karachi">Karachi</option>
+                    <option value="Sargodha">Sargodha</option>
+                    <option value="Faislabad">Faislabad</option>
+                    <option value="Abottabad">Abottabad</option>
+                    <option value="Sialkot">Sialkot</option>
+                    <option value="Murree">Murree</option>
+                </select>
+            </div>
+            <div class="formclass" id="bus_class">
+                <label for="Service">Ticket Service</label>
+                <div>
+                    <input type="radio" id="eclass"> <span> Economy Class </span> <br>
+                    <input type="radio" id="fclass"> <span> First Class </span>  <br>
+                    <input type="radio" id="bclass"> <span> Business Class</span> <br>
+                </div>
+            </div>
+            <div class="formclass" id="datetime">
+                <label for="date">Date & Time</label>
+                <input type="datetime-local">
+            </div>
+            <div class="formclass" id="phone_no">
+                <label for="phone number">Phone Number</label>
+                <input type="text" id="myphone">
+            </div>
+            <div class="formclass" id="buttons">
+                <button type="submit" id="submitbtn" class="approvalbtn">Submit Now</button>
+                <button type="reset" id="resetbtn" class="approvalbtn">Reset All</button>
+            </div>
+        </form>
+    </div>
+    <script src="Project Seat Booking.js"></script>
+</body>
+
+</html>
